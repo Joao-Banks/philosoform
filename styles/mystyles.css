@@ -190,3 +190,78 @@ footer .social img {
   border-radius: 10px;
 
 }
+
+.personalities-grid {
+
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: auto auto auto auto;
+  
+  }
+  
+  .plato-img {
+  
+  width: 300px;
+  margin: 100px 0;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  border-color: var(--secondary-color);
+  margin-left: 50px;
+  box-shadow: 5px 5px 10px black;
+  
+  }
+
+  .text-1 {
+
+    grid-column: 2/11;
+    grid-row: 1/2;
+    padding: 20px 50px;
+    text-align: center;
+    margin-top: 60px;
+
+  }
+
+
+  .renedescartes-img {
+
+    width: 300px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-left: 50px;
+    margin-top: 120px;
+    box-shadow: 5px 5px 10px black;
+
+  }
+
+  .text-2 {
+
+    grid-column: 2/11;
+    grid-row: 2/3;
+    padding: 20px 50px;
+    text-align: center;
+    margin-top: 50px;
+
+  }
+
+
+  .shopenhauer-img {
+
+    width: 300px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin-bottom: 70px;
+    margin-left: 50px;
+    margin-top: 180px;
+    box-shadow: 5px 5px 10px black;
+
+  }
+
+  .text-3 {
+
+    grid-column: 2/11;
+    grid-row: 3/4;
+    padding: 20px 50px;
+    text-align: center;
+    margin-top: 50px;
+
+  }
