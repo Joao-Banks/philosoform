@@ -27,6 +27,12 @@ Fonts are separated by a | */
   --nav-hover-background-color: #C1CCC8;
 }
 
+.accent2 {
+
+color: white;
+
+}
+
 header {
 
   background-color:rgba(0,0,0,0.4);
